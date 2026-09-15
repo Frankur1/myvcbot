@@ -1,0 +1,21 @@
+{
+  "name": "wildberries-pigeon-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render WildberriesInvitation out/invitation.mp4",
+    "still": "remotion still WildberriesInvitation out/invitation.png --frame=275"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.322",
+    "@remotion/google-fonts": "4.0.322",
+    "@remotion/renderer": "4.0.322",
+    "remotion": "4.0.322"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

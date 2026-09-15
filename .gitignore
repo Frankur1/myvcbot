@@ -12,3 +12,5 @@ local.env
 *png
 *.raw
 *.log
+node_modules/
+out/
